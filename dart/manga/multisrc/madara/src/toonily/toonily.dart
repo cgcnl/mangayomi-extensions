@@ -7,7 +7,7 @@ Source _toonilySource = Source(
     lang: "en",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/toonily/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/toonily/icon.png",
     dateFormat:"MMM d, yy",
     dateFormatLocale:"en_us"
   );

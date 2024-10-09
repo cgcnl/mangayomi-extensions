@@ -7,7 +7,7 @@ Source _gremorymangasSource = Source(
     lang: "es",
     isNsfw:false,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/gremorymangas/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/gremorymangas/icon.png",
     dateFormat:"MMMM dd, yyyy",
     dateFormatLocale:"es"
   );

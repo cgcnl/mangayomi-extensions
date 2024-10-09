@@ -7,7 +7,7 @@ Source _manhwadashrawSource = Source(
     lang: "all",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/manhwadashraw/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/manhwadashraw/icon.png",
     dateFormat:"dd/MM/yyy",
     dateFormatLocale:"en"
   );

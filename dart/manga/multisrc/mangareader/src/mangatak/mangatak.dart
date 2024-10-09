@@ -7,7 +7,7 @@ Source _mangatakSource = Source(
     lang: "ar",
     isNsfw:false,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/mangatak/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/mangatak/icon.png",
     dateFormat:"MMMM DD, yyyy",
     dateFormatLocale:"ar"
   );

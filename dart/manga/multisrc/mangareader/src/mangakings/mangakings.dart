@@ -7,7 +7,7 @@ Source _mangakingsSource = Source(
     lang: "tr",
     isNsfw:false,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/mangakings/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/mangakings/icon.png",
     dateFormat:"MMMM dd, yyyy",
     dateFormatLocale:"tr"
   );

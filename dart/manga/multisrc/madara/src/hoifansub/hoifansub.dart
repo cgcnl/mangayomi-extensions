@@ -7,7 +7,7 @@ Source _hoifansubSource = Source(
     lang: "tr",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/hoifansub/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/hoifansub/icon.png",
     dateFormat:"MMMM d, yyyy",
     dateFormatLocale:"tr"
   );

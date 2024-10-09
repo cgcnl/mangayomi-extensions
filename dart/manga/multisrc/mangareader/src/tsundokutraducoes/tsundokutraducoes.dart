@@ -7,7 +7,7 @@ Source _tsundokutraducoesSource = Source(
     lang: "pt-br",
     isNsfw:false,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/tsundokutraducoes/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/tsundokutraducoes/icon.png",
     dateFormat:"MMMMM d, yyyy",
     dateFormatLocale:"pt-br"
   );

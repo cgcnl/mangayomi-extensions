@@ -7,7 +7,7 @@ Source _arabtoonsSource = Source(
     lang: "ar",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/arabtoons/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/arabtoons/icon.png",
     dateFormat:"MMM d",
     dateFormatLocale:"ar"
   );

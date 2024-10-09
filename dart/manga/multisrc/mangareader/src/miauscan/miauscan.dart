@@ -7,7 +7,7 @@ Source _miauscanSource = Source(
     lang: "all",
     isNsfw:false,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/miauscan/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/miauscan/icon.png",
     dateFormat:"MMMM dd, yyyy",
     dateFormatLocale:"es"
   );

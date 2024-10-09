@@ -8,7 +8,7 @@ import '../../../../../../model/source.dart';
     lang: "en",
     
     typeSource: "madara",
-    iconUrl:"https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/madara/src/immortalupdates/icon.png",
+    iconUrl:"https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/madara/src/immortalupdates/icon.png",
     dateFormat:"MMMM dd, yyyy",
     dateFormatLocale:"en_us",
   );

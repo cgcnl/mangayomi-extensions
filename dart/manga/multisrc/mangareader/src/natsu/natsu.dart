@@ -7,7 +7,7 @@ Source _natsuSource = Source(
     lang: "id",
     isNsfw:false,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/natsu/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/natsu/icon.png",
     dateFormat:"MMMM dd, yyyy",
     dateFormatLocale:"id"
   );

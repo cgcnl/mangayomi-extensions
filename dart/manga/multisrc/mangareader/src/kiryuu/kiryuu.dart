@@ -7,7 +7,7 @@ Source _kiryuuSource = Source(
     lang: "id",
     isNsfw:false,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/kiryuu/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/kiryuu/icon.png",
     dateFormat:"MMMM dd, yyyy",
     dateFormatLocale:"id"
   );

@@ -7,7 +7,7 @@ Source _traduccionesmoonlightSource = Source(
     lang: "es",
     isNsfw:true,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/traduccionesmoonlight/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/traduccionesmoonlight/icon.png",
     dateFormat:"MMMM d, yyyy",
     dateFormatLocale:"es"
   );

@@ -7,7 +7,7 @@ Source _mangaefendisiSource = Source(
     lang: "tr",
     isNsfw:false,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/mangaefendisi/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/mangaefendisi/icon.png",
     dateFormat:"MMMM d, yyyy",
     dateFormatLocale:"tr"
   );

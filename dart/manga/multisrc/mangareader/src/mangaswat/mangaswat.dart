@@ -7,7 +7,7 @@ Source _mangaswatSource = Source(
     lang: "ar",
     isNsfw:false,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/mangaswat/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/mangaswat/icon.png",
     dateFormat:"MMMM dd, yyyy",
     dateFormatLocale:"ar"
   );

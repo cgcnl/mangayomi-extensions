@@ -7,7 +7,7 @@ Source _ikifengSource = Source(
     lang: "es",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/ikifeng/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/ikifeng/icon.png",
     dateFormat:"dd/MM/yyyy",
     dateFormatLocale:"es"
   );

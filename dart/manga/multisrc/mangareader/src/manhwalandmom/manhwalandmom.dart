@@ -7,7 +7,7 @@ Source _manhwalandmomSource = Source(
     lang: "id",
     isNsfw:true,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/manhwalandmom/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/manhwalandmom/icon.png",
     dateFormat:"MMMM d, yyyy",
     dateFormatLocale:"id"
   );

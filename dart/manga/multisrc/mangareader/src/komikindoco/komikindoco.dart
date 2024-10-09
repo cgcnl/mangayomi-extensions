@@ -7,7 +7,7 @@ Source _komikindocoSource = Source(
     lang: "id",
     isNsfw:false,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/komikindoco/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/komikindoco/icon.png",
     dateFormat:"MMM dd, yyyy",
     dateFormatLocale:"id"
   );

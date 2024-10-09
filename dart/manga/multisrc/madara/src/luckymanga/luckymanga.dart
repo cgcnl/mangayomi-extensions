@@ -7,7 +7,7 @@ Source _luckymangaSource = Source(
     lang: "es",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/luckymanga/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/luckymanga/icon.png",
     dateFormat:"d MMMM, yyyy",
     dateFormatLocale:"es"
   );

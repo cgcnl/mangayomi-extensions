@@ -7,7 +7,7 @@ Source _vfscanSource = Source(
     lang: "fr",
     isNsfw:false,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/vfscan/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/vfscan/icon.png",
     dateFormat:"MMMM dd, yyyy",
     dateFormatLocale:"fr"
   );

@@ -7,7 +7,7 @@ Source _silencescanSource = Source(
     lang: "pt-br",
     isNsfw:true,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/silencescan/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/silencescan/icon.png",
     dateFormat:"MMMMM dd, yyyy",
     dateFormatLocale:"pt-br"
   );

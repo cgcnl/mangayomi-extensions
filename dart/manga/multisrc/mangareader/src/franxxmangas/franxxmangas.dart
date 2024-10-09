@@ -7,7 +7,7 @@ Source _franxxmangasSource = Source(
     lang: "pt-br",
     isNsfw:true,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/franxxmangas/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/franxxmangas/icon.png",
     dateFormat:"MMMMM dd, yyyy",
     dateFormatLocale:"pt-br"
   );

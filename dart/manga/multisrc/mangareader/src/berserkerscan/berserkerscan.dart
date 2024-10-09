@@ -7,7 +7,7 @@ Source _berserkerscanSource = Source(
     lang: "es",
     isNsfw:false,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/berserkerscan/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/berserkerscan/icon.png",
     dateFormat:"MMMM d, yyyy",
     dateFormatLocale:"es"
   );

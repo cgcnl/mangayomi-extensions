@@ -8,7 +8,7 @@ Source _shadowmangasSource = Source(
   lang: "es",
   typeSource: "mangareader",
   iconUrl:
-      "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/shadowmangas/icon.png",
+      "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/shadowmangas/icon.png",
   dateFormat: "MMMM dd, yyyy",
   dateFormatLocale: "es",
 );

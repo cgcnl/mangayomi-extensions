@@ -7,7 +7,7 @@ Source _toongodSource = Source(
     lang: "en",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/toongod/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/toongod/icon.png",
     dateFormat:"d MMM yyyy",
     dateFormatLocale:"en_us"
   );

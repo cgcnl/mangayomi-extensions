@@ -7,7 +7,7 @@ Source _sektedoujinSource = Source(
     lang: "id",
     isNsfw:true,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/sektedoujin/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/sektedoujin/icon.png",
     dateFormat:"MMMM dd, yyyy",
     dateFormatLocale:"id"
   );

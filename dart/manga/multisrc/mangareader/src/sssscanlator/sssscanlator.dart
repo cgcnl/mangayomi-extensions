@@ -7,7 +7,7 @@ Source _sssscanlatorSource = Source(
     lang: "pt-br",
     isNsfw:false,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/sssscanlator/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/sssscanlator/icon.png",
     dateFormat:"MMMMM dd, yyyy",
     dateFormatLocale:"pt-br"
   );

@@ -7,7 +7,7 @@ Source _flowermangaSource = Source(
     lang: "pt-br",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/flowermanga/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/flowermanga/icon.png",
     dateFormat:"d 'de' MMMMM 'de' yyyy",
     dateFormatLocale:"pt-br"
   );

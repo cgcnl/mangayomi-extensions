@@ -7,7 +7,7 @@ Source _sodsaimeSource = Source(
     lang: "th",
     isNsfw:true,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/sodsaime/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/sodsaime/icon.png",
     dateFormat:"MMMMM dd, yyyy",
     dateFormatLocale:"th"
   );

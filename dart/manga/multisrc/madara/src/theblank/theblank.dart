@@ -7,7 +7,7 @@ Source _theblankSource = Source(
     lang: "en",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/theblank/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/theblank/icon.png",
     dateFormat:"dd/MM/yy",
     dateFormatLocale:"en_us"
   );

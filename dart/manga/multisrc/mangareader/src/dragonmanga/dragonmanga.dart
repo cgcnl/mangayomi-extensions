@@ -7,7 +7,7 @@ Source _dragonmangaSource = Source(
     lang: "th",
     isNsfw:true,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/dragonmanga/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/dragonmanga/icon.png",
     dateFormat:"MMMM d, yyyy",
     dateFormatLocale:"th"
   );

@@ -373,7 +373,7 @@ import 'src/truyenvn/truyenvn.dart';
 
 const madaraVersion = "0.1.15";
 const madaraSourceCodeUrl =
-    "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/madara/madara.dart";
+    "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/madara/madara.dart";
 
 List<Source> get madaraSourcesList => _madaraSourcesList;
 List<Source> _madaraSourcesList = [

@@ -7,7 +7,7 @@ Source _walpurgisscanSource = Source(
     lang: "it",
     isNsfw:false,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/walpurgisscan/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/walpurgisscan/icon.png",
     dateFormat:"MMM d, yyyy",
     dateFormatLocale:"it"
   );

@@ -7,7 +7,7 @@ Source _passamaoscanSource = Source(
     lang: "pt-br",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/passamaoscan/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/passamaoscan/icon.png",
     dateFormat:"dd/MM/yyyy",
     dateFormatLocale:"pt-br"
   );

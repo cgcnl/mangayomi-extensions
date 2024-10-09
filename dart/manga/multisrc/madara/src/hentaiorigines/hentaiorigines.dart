@@ -7,7 +7,7 @@ Source _hentaioriginesSource = Source(
     lang: "fr",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/hentaiorigines/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/hentaiorigines/icon.png",
     dateFormat:"MMMM dd, yyyy",
     dateFormatLocale:"fr"
   );

@@ -7,7 +7,7 @@ Source _esmi2mangaSource = Source(
     lang: "es",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/esmi2manga/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/esmi2manga/icon.png",
     dateFormat:"MMMM dd, yyyy",
     dateFormatLocale:"es"
   );

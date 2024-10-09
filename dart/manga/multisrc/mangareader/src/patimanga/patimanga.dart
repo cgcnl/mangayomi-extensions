@@ -7,7 +7,7 @@ Source _patimangaSource = Source(
     lang: "tr",
     isNsfw:false,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/patimanga/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/patimanga/icon.png",
     dateFormat:"MMMM d, yyy",
     dateFormatLocale:"tr"
   );

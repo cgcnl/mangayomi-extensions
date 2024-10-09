@@ -7,7 +7,7 @@ Source _covenscanSource = Source(
     lang: "pt-br",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/covenscan/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/covenscan/icon.png",
     dateFormat:"MMMM dd, yyyy",
     dateFormatLocale:"pt-br"
   );

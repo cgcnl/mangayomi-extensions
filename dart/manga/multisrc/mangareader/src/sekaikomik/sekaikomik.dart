@@ -7,7 +7,7 @@ Source _sekaikomikSource = Source(
     lang: "id",
     isNsfw:true,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/sekaikomik/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/sekaikomik/icon.png",
     dateFormat:"MMMM dd, yyyy",
     dateFormatLocale:"id"
   );

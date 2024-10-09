@@ -7,7 +7,7 @@ Source _gmangasiteSource = Source(
     lang: "ar",
     isNsfw:false,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/gmangasite/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/gmangasite/icon.png",
     dateFormat:"MMMM dd، yyyy",
     dateFormatLocale:"ar"
   );

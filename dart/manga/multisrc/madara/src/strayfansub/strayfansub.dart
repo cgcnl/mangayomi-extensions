@@ -7,7 +7,7 @@ Source _strayfansubSource = Source(
     lang: "tr",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/strayfansub/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/strayfansub/icon.png",
     dateFormat:"MMMM d, yyyy",
     dateFormatLocale:"tr"
   );

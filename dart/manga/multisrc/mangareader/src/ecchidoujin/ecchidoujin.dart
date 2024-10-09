@@ -7,7 +7,7 @@ Source _ecchidoujinSource = Source(
     lang: "th",
     isNsfw:true,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/ecchidoujin/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/ecchidoujin/icon.png",
     dateFormat:"MMMM d, yyyy",
     dateFormatLocale:"th"
   );

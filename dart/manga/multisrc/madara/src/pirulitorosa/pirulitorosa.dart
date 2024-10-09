@@ -7,7 +7,7 @@ Source _pirulitorosaSource = Source(
     lang: "pt-br",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/pirulitorosa/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/pirulitorosa/icon.png",
     dateFormat:"dd/MM/yyy",
     dateFormatLocale:"pt-br"
   );
