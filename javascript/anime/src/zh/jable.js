@@ -92,145 +92,145 @@ class DefaultExtension extends MProvider {
   getFilterList() {
     return [{
       type: "categories",
-      name: "主題",
+      name: "Categories",
       type_name: "SelectFilter",
       values: [{
-          name: "角色劇情",
+          name: "Roleplay",
           value: "/categories/roleplay/",
           type_name: "SelectOption"
         },
         {
-          name: "中文字幕",
+          name: "Chinese subtitle",
           value: "/categories/chinese-subtitle/",
           type_name: "SelectOption"
         },
         {
-          name: "制服誘惑",
+          name: "Uniform",
           value: "/categories/uniform/",
           type_name: "SelectOption"
         },
         {
-          name: "直接開啪",
+          name: "Sex only",
           value: "/categories/sex-only/",
           type_name: "SelectOption"
         },
         {
-          name: "絲襪美腿",
+          name: "Pantyhose",
           value: "/categories/pantyhose/",
           type_name: "SelectOption"
         },
         {
-          name: "主奴調教",
+          name: "BDSM",
           value: "/categories/bdsm/",
           type_name: "SelectOption"
         },
         {
-          name: "多P群交",
+          name: "Group sex",
           value: "/categories/groupsex/",
           type_name: "SelectOption"
         },
         {
-          name: "男友視角",
+          name: "POV",
           value: "/categories/pov/",
           type_name: "SelectOption"
         },
         {
-          name: "凌辱強暴",
+          name: "Rape",
           value: "/categories/rape/",
           type_name: "SelectOption"
         },
         {
-          name: "無碼解放",
+          name: "Uncensored",
           value: "/categories/uncensored/",
           type_name: "SelectOption"
         },
         {
-          name: "盜攝偷拍",
+          name: "Hidden cam",
           value: "/categories/hidden-cam/",
           type_name: "SelectOption"
         },
         {
-          name: "女同歡愉",
+          name: "Lessbian",
           value: "/categories/lesbian/",
           type_name: "SelectOption"
         },
         {
-          name: "黑絲",
+          name: "Black pantyhose",
           value: "/tags/black-pantyhose/",
           type_name: "SelectOption"
         },
         {
-          name: "過膝襪",
+          name: "Knee socks",
           value: "/tags/knee-socks/",
           type_name: "SelectOption"
         },
         {
-          name: "運動裝",
+          name: "Sportwear",
           value: "/tags/sportswear/",
           type_name: "SelectOption"
         },
         {
-          name: "肉絲",
+          name: "Flesh toned pantyhose",
           value: "/tags/flesh-toned-pantyhose/",
           type_name: "SelectOption"
         },
         {
-          name: "絲襪",
+          name: "Pantyhose",
           value: "/tags/pantyhose/",
           type_name: "SelectOption"
         },
         {
-          name: "眼鏡娘",
+          name: "Glasses",
           value: "/tags/glasses/",
           type_name: "SelectOption"
         },
         {
-          name: "獸耳",
+          name: "Kemonomimi",
           value: "/tags/kemonomimi/",
           type_name: "SelectOption"
         },
         {
-          name: "漁網",
+          name: "Fishnets",
           value: "/tags/fishnets/",
           type_name: "SelectOption"
         },
         {
-          name: "水着",
+          name: "Swimsuit",
           value: "/tags/swimsuit/",
           type_name: "SelectOption"
         },
         {
-          name: "校服",
+          name: "School uniform",
           value: "/tags/school-uniform/",
           type_name: "SelectOption"
         },
         {
-          name: "旗袍",
+          name: "Cheongsam",
           value: "/tags/cheongsam/",
           type_name: "SelectOption"
         },
         {
-          name: "婚紗",
+          name: "Wedding dress",
           value: "/tags/wedding-dress/",
           type_name: "SelectOption"
         },
         {
-          name: "女僕",
+          name: "Maid",
           value: "/tags/maid/",
           type_name: "SelectOption"
         },
         {
-          name: "和服",
+          name: "Kimono",
           value: "/tags/kimono/",
           type_name: "SelectOption"
         },
         {
-          name: "吊帶襪",
+          name: "Stockings",
           value: "/tags/stockings/",
           type_name: "SelectOption"
         },
         {
-          name: "兔女郎",
+          name: "Bunny girl",
           value: "/tags/bunny-girl/",
           type_name: "SelectOption"
         },
@@ -240,212 +240,212 @@ class DefaultExtension extends MProvider {
           type_name: "SelectOption"
         },
         {
-          name: "黑肉",
+          name: "Suntan",
           value: "/tags/suntan/",
           type_name: "SelectOption"
         },
         {
-          name: "長身",
+          name: "Tall",
           value: "/tags/tall/",
           type_name: "SelectOption"
         },
         {
-          name: "軟體",
+          name: "Flexible body",
           value: "/tags/flexible-body/",
           type_name: "SelectOption"
         },
         {
-          name: "貧乳",
+          name: "Small tits",
           value: "/tags/small-tits/",
           type_name: "SelectOption"
         },
         {
-          name: "蘿莉",
+          name: "loli",
           value: "/tags/loli/",
           type_name: "SelectOption"
         },
         {
-          name: "美腿",
+          name: "Beautiful leg",
           value: "/tags/beautiful-leg/",
           type_name: "SelectOption"
         },
         {
-          name: "美尻",
+          name: "Beautiful butt",
           value: "/tags/beautiful-butt/",
           type_name: "SelectOption"
         },
         {
-          name: "紋身",
+          name: "Tattoo",
           value: "/tags/tattoo/",
           type_name: "SelectOption"
         },
         {
-          name: "短髮",
+          name: "Short hair",
           value: "/tags/short-hair/",
           type_name: "SelectOption"
         },
         {
-          name: "白虎",
+          name: "Hairless pussy",
           value: "/tags/hairless-pussy/",
           type_name: "SelectOption"
         },
         {
-          name: "熟女",
+          name: "Mature woman",
           value: "/tags/mature-woman/",
           type_name: "SelectOption"
         },
         {
-          name: "巨乳",
+          name: "Big tits",
           value: "/tags/big-tits/",
           type_name: "SelectOption"
         },
         {
-          name: "少女",
+          name: "Girl",
           value: "/tags/girl/",
           type_name: "SelectOption"
         },
         {
-          name: "顏射",
+          name: "Facial",
           value: "/tags/facial/",
           type_name: "SelectOption"
         },
         {
-          name: "腳交",
+          name: "Footjob",
           value: "/tags/footjob/",
           type_name: "SelectOption"
         },
         {
-          name: "肛交",
+          name: "Anal sex",
           value: "/tags/anal-sex/",
           type_name: "SelectOption"
         },
         {
-          name: "痙攣",
+          name: "Spasms",
           value: "/tags/spasms/",
           type_name: "SelectOption"
         },
         {
-          name: "潮吹",
+          name: "Squirting",
           value: "/tags/squirting/",
           type_name: "SelectOption"
         },
         {
-          name: "深喉",
+          name: "Deep throat",
           value: "/tags/deep-throat/",
           type_name: "SelectOption"
         },
         {
-          name: "接吻",
+          name: "Kiss",
           value: "/tags/kiss/",
           type_name: "SelectOption"
         },
         {
-          name: "口爆",
+          name: "Cum in mouth",
           value: "/tags/cum-in-mouth/",
           type_name: "SelectOption"
         },
         {
-          name: "口交",
+          name: "BJ",
           value: "/tags/blowjob/",
           type_name: "SelectOption"
         },
         {
-          name: "乳交",
+          name: "Tit wank",
           value: "/tags/tit-wank/",
           type_name: "SelectOption"
         },
         {
-          name: "中出",
+          name: "Creampie",
           value: "/tags/creampie/",
           type_name: "SelectOption"
         },
         {
-          name: "露出",
+          name: "Outdoor",
           value: "/tags/outdoor/",
           type_name: "SelectOption"
         },
         {
-          name: "輪姦",
+          name: "Gang rape",
           value: "/tags/gang-rape/",
           type_name: "SelectOption"
         },
         {
-          name: "調教",
+          name: "Tune",
           value: "/tags/tune/",
           type_name: "SelectOption"
         },
         {
-          name: "綑綁",
+          name: "Bondage",
           value: "/tags/bondage/",
           type_name: "SelectOption"
         },
         {
-          name: "瞬間插入",
+          name: "Quickie",
           value: "/tags/quickie/",
           type_name: "SelectOption"
         },
         {
-          name: "痴漢",
+          name: "Chikan",
           value: "/tags/chikan/",
           type_name: "SelectOption"
         },
         {
-          name: "痴女",
+          name: "Chizyo",
           value: "/tags/chizyo/",
           type_name: "SelectOption"
         },
         {
-          name: "男M",
+          name: "Masochism guy",
           value: "/tags/masochism-guy/",
           type_name: "SelectOption"
         },
         {
-          name: "泥醉",
+          name: "Crapulence",
           value: "/tags/crapulence/",
           type_name: "SelectOption"
         },
         {
-          name: "泡姬",
+          name: "Soapland",
           value: "/tags/soapland/",
           type_name: "SelectOption"
         },
         {
-          name: "母乳",
+          name: "Breast milk",
           value: "/tags/breast-milk/",
           type_name: "SelectOption"
         },
         {
-          name: "放尿",
+          name: "Piss",
           value: "/tags/piss/",
           type_name: "SelectOption"
         },
         {
-          name: "按摩",
+          name: "Massage",
           value: "/tags/massage/",
           type_name: "SelectOption"
         },
         {
-          name: "強姦",
+          name: "Rape",
           value: "/tags/rape/",
           type_name: "SelectOption"
         },
         {
-          name: "多P",
+          name: "Gangbang",
           value: "/tags/gangbang/",
           type_name: "SelectOption"
         },
         {
-          name: "刑具",
+          name: "Torture",
           value: "/tags/torture/",
           type_name: "SelectOption"
         },
         {
-          name: "凌辱",
+          name: "Insult",
           value: "/tags/insult/",
           type_name: "SelectOption"
         },
         {
-          name: "一日十回",
+          name: "10 times a day",
           value: "/tags/10-times-a-day/",
           type_name: "SelectOption"
         },
@@ -455,77 +455,77 @@ class DefaultExtension extends MProvider {
           type_name: "SelectOption"
         },
         {
-          name: "黑人",
+          name: "Black",
           value: "/tags/black/",
           type_name: "SelectOption"
         },
         {
-          name: "醜男",
+          name: "Ugly man",
           value: "/tags/ugly-man/",
           type_name: "SelectOption"
         },
         {
-          name: "誘惑",
+          name: "Temptation",
           value: "/tags/temptation/",
           type_name: "SelectOption"
         },
         {
-          name: "童貞",
+          name: "Virginity",
           value: "/tags/virginity/",
           type_name: "SelectOption"
         },
         {
-          name: "時間停止",
+          name: "Time Stop",
           value: "/tags/time-stop/",
           type_name: "SelectOption"
         },
         {
-          name: "復仇",
+          name: "Avenge",
           value: "/tags/avenge/",
           type_name: "SelectOption"
         },
         {
-          name: "年齡差",
+          name: "Age difference",
           value: "/tags/age-difference/",
           type_name: "SelectOption"
         },
         {
-          name: "巨漢",
+          name: "Giant",
           value: "/tags/giant/",
           type_name: "SelectOption"
         },
         {
-          name: "媚藥",
+          name: "Live potion",
           value: "/tags/love-potion/",
           type_name: "SelectOption"
         },
         {
-          name: "夫目前犯",
+          name: "Sex beside husband",
           value: "/tags/sex-beside-husband/",
           type_name: "SelectOption"
         },
         {
-          name: "出軌",
+          name: "Affair",
           value: "/tags/affair/",
           type_name: "SelectOption"
         },
         {
-          name: "催眠",
+          name: "Hyponosis",
           value: "/tags/hypnosis/",
           type_name: "SelectOption"
         },
         {
-          name: "偷拍",
+          name: "Hidden Cam",
           value: "/tags/hidden-cam/",
           type_name: "SelectOption"
         },
         {
-          name: "不倫",
+          name: "Incest",
           value: "/tags/incest/",
           type_name: "SelectOption"
         },
         {
-          name: "下雨天",
+          name: "Rainy day",
           value: "/tags/rainy-day/",
           type_name: "SelectOption"
         },
@@ -535,77 +535,77 @@ class DefaultExtension extends MProvider {
           type_name: "SelectOption"
         },
         {
-          name: "風俗娘",
+          name: "Club hostess and sex worker",
           value: "/tags/club-hostess-and-sex-worker/",
           type_name: "SelectOption"
         },
         {
-          name: "醫生",
+          name: "Doctor",
           value: "/tags/doctor/",
           type_name: "SelectOption"
         },
         {
-          name: "逃犯",
+          name: "Fugitive",
           value: "/tags/fugitive/",
           type_name: "SelectOption"
         },
         {
-          name: "護士",
+          name: "Nurse",
           value: "/tags/nurse/",
           type_name: "SelectOption"
         },
         {
-          name: "老師",
+          name: "Teacher",
           value: "/tags/teacher/",
           type_name: "SelectOption"
         },
         {
-          name: "空姐",
+          name: "Flight attendant",
           value: "/tags/flight-attendant/",
           type_name: "SelectOption"
         },
         {
-          name: "球隊經理",
+          name: "Team manager",
           value: "/tags/team-manager/",
           type_name: "SelectOption"
         },
         {
-          name: "未亡人",
+          name: "Widow",
           value: "/tags/widow/",
           type_name: "SelectOption"
         },
         {
-          name: "搜查官",
+          name: "Detective",
           value: "/tags/detective/",
           type_name: "SelectOption"
         },
         {
-          name: "情侶",
+          name: "Couple",
           value: "/tags/couple/",
           type_name: "SelectOption"
         },
         {
-          name: "家政婦",
+          name: "Housewife",
           value: "/tags/housewife/",
           type_name: "SelectOption"
         },
         {
-          name: "家庭教師",
+          name: "Private Teacher",
           value: "/tags/private-teacher/",
           type_name: "SelectOption"
         },
         {
-          name: "偶像",
+          name: "Idol",
           value: "/tags/idol/",
           type_name: "SelectOption"
         },
         {
-          name: "人妻",
+          name: "Wife",
           value: "/tags/wife/",
           type_name: "SelectOption"
         },
         {
-          name: "主播",
+          name: "Female anchor",
           value: "/tags/female-anchor/",
           type_name: "SelectOption"
         },
@@ -615,97 +615,97 @@ class DefaultExtension extends MProvider {
           type_name: "SelectOption"
         },
         {
-          name: "魔鏡號",
+          name: "Magic Mirror",
           value: "/tags/magic-mirror/",
           type_name: "SelectOption"
         },
         {
-          name: "電車",
+          name: "Tram",
           value: "/tags/tram/",
           type_name: "SelectOption"
         },
         {
-          name: "處女",
+          name: "First Night",
           value: "/tags/first-night/",
           type_name: "SelectOption"
         },
         {
-          name: "監獄",
+          name: "Prison",
           value: "/tags/prison/",
           type_name: "SelectOption"
         },
         {
-          name: "溫泉",
+          name: "Hot spring",
           value: "/tags/hot-spring/",
           type_name: "SelectOption"
         },
         {
-          name: "洗浴場",
+          name: "Bathing place",
           value: "/tags/bathing-place/",
           type_name: "SelectOption"
         },
         {
-          name: "泳池",
+          name: "Swimming pool",
           value: "/tags/swimming-pool/",
           type_name: "SelectOption"
         },
         {
-          name: "汽車",
+          name: "Car",
           value: "/tags/car/",
           type_name: "SelectOption"
         },
         {
-          name: "廁所",
+          name: "Toilet",
           value: "/tags/toilet/",
           type_name: "SelectOption"
         },
         {
-          name: "學校",
+          name: "School",
           value: "/tags/school/",
           type_name: "SelectOption"
         },
         {
-          name: "圖書館",
+          name: "Library",
           value: "/tags/library/",
           type_name: "SelectOption"
         },
         {
-          name: "健身房",
+          name: "Gym room",
           value: "/tags/gym-room/",
           type_name: "SelectOption"
         },
         {
-          name: "便利店",
+          name: "Store",
           value: "/tags/store/",
           type_name: "SelectOption"
         },
         {
-          name: "錄像",
+          name: "Video recording",
           value: "/tags/video-recording/",
           type_name: "SelectOption"
         },
         {
-          name: "處女作/引退作",
+          name: "Debut/Retires",
           value: "/tags/debut-retires/",
           type_name: "SelectOption"
         },
         {
-          name: "綜藝",
+          name: "Variety Show",
           value: "/tags/variety-show/",
           type_name: "SelectOption"
         },
         {
-          name: "節日主題",
+          name: "Festival",
           value: "/tags/festival/",
           type_name: "SelectOption"
         },
         {
-          name: "感謝祭",
+          name: "Thanksgiving",
           value: "/tags/thanksgiving/",
           type_name: "SelectOption"
         },
         {
-          name: "4小時以上",
+          name: "More than 4 hours",
           value: "/tags/more-than-4-hours/",
           type_name: "SelectOption"
         }
@@ -713,25 +713,25 @@ class DefaultExtension extends MProvider {
     },
     {
       type: "sort",
-      name: "排序",
+      name: "Sort by",
       type_name: "SelectFilter",
       values: [{
-          name: "近期最佳",
+          name: "Post date and popularity",
           value: "post_date_and_popularity",
           type_name: "SelectOption"
         },
         {
-          name: "最近更新",
+          name: "Post date",
           value: "post_date",
           type_name: "SelectOption"
         },
         {
-          name: "最多觀看",
+          name: "Video viewed",
           value: "video_viewed",
           type_name: "SelectOption"
         },
         {
-          name: "最高收藏",
+          name: "Most favourited",
           value: "most_favourited",
           type_name: "SelectOption"
         }

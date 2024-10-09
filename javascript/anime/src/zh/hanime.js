@@ -152,22 +152,22 @@ class DefaultExtension extends MProvider {
   getFilterList() {
     return [{
         type: "genre",
-        name: "影片類型",
+        name: "Genre",
         type_name: "SelectFilter",
         values: [{
             type_name: "SelectOption",
             value: "&genre=%E5%85%A8%E9%83%A8",
-            name: "全部"
+            name: "All"
           },
           {
             type_name: "SelectOption",
             value: "&genre=%E8%A3%8F%E7%95%AA",
-            name: "裏番"
+            name: "Lifan"
           },
           {
             type_name: "SelectOption",
             value: "&genre=%E6%B3%A1%E9%BA%B5%E7%95%AA",
-            name: "泡麵番"
+            name: "Instant Noodles"
           },
           {
             type_name: "SelectOption",
@@ -177,12 +177,12 @@ class DefaultExtension extends MProvider {
           {
             type_name: "SelectOption",
             value: "&genre=3D%E5%8B%95%E7%95%AB",
-            name: "3D動畫"
+            name: "3D Animation"
           },
           {
             type_name: "SelectOption",
             value: "&genre=%E5%90%8C%E4%BA%BA%E4%BD%9C%E5%93%81",
-            name: "同人作品"
+            name: "Fan Works"
           },
           {
             type_name: "SelectOption",
@@ -193,25 +193,25 @@ class DefaultExtension extends MProvider {
       },
       {
         type: "tags",
-        name: "內容標籤",
+        name: "Tags",
         type_name: "GroupFilter",
         state: [{
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%84%A1%E7%A2%BC",
             state: false,
-            name: "無碼"
+            name: "Uncensored"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=AI%E8%A7%A3%E7%A2%BC",
             state: false,
-            name: "AI解碼"
+            name: "AI Decoding"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E4%B8%AD%E6%96%87%E5%AD%97%E5%B9%95",
             state: false,
-            name: "中文字幕"
+            name: "Chinese subtitles"
           },
           {
             type_name: "CheckBox",
@@ -235,55 +235,55 @@ class DefaultExtension extends MProvider {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%BF%91%E8%A6%AA",
             state: false,
-            name: "近親"
+            name: "Close relatives"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%A7%90",
             state: false,
-            name: "姐"
+            name: "Older sister"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%A6%B9",
             state: false,
-            name: "妹"
+            name: "Younger sister"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%AF%8D",
             state: false,
-            name: "母"
+            name: "Mother"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%A5%B3%E5%85%92",
             state: false,
-            name: "女兒"
+            name: "Daughter"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%B8%AB%E7%94%9F",
             state: false,
-            name: "師生"
+            name: "Teachers and Students"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%83%85%E4%BE%B6",
             state: false,
-            name: "情侶"
+            name: "Couple"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A6%AC",
             state: false,
-            name: "青梅竹馬"
+            name: "Childhood sweetheart"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%90%8C%E4%BA%8B",
             state: false,
-            name: "同事"
+            name: "colleague"
           },
           {
             type_name: "CheckBox",
@@ -295,37 +295,37 @@ class DefaultExtension extends MProvider {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%99%95%E5%A5%B3",
             state: false,
-            name: "處女"
+            name: "Virgin"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%BE%A1%E5%A7%90",
             state: false,
-            name: "御姐"
+            name: "Royal sister"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%86%9F%E5%A5%B3",
             state: false,
-            name: "熟女"
+            name: "MILF"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E4%BA%BA%E5%A6%BB",
             state: false,
-            name: "人妻"
+            name: "Wife"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%80%81%E5%B8%AB",
             state: false,
-            name: "老師"
+            name: "teacher"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%A5%B3%E9%86%AB%E8%AD%B7%E5%A3%AB",
             state: false,
-            name: "女醫護士"
+            name: "Female nurse"
           },
           {
             type_name: "CheckBox",
@@ -337,349 +337,349 @@ class DefaultExtension extends MProvider {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%A4%A7%E5%B0%8F%E5%A7%90",
             state: false,
-            name: "大小姐"
+            name: "Missy"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%81%B6%E5%83%8F",
             state: false,
-            name: "偶像"
+            name: "Idol"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%A5%B3%E5%83%95",
             state: false,
-            name: "女僕"
+            name: "Maid"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%B7%AB%E5%A5%B3",
             state: false,
-            name: "巫女"
+            name: "Miko"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E4%BF%AE%E5%A5%B3",
             state: false,
-            name: "修女"
+            name: "nun"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E9%A2%A8%E4%BF%97%E5%A8%98",
             state: false,
-            name: "風俗娘"
+            name: "Custom Girl"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%85%AC%E4%B8%BB",
             state: false,
-            name: "公主"
+            name: "Princess"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%A5%B3%E6%88%B0%E5%A3%AB",
             state: false,
-            name: "女戰士"
+            name: "Female Warrior"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3",
             state: false,
-            name: "魔法少女"
+            name: "Magical Girl"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%95%B0%E7%A8%AE%E6%97%8F",
             state: false,
-            name: "異種族"
+            name: "Different race"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%A6%96%E7%B2%BE",
             state: false,
-            name: "妖精"
+            name: "Fairy"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E9%AD%94%E7%89%A9%E5%A8%98",
             state: false,
-            name: "魔物娘"
+            name: "Monster Girl"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%8D%B8%E5%A8%98",
             state: false,
-            name: "獸娘"
+            name: "Beast Girl"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%A2%A7%E6%B1%A0",
             state: false,
-            name: "碧池"
+            name: "Bichi"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%97%B4%E5%A5%B3",
             state: false,
-            name: "痴女"
+            name: "Nude"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E9%9B%8C%E5%B0%8F%E9%AC%BC",
             state: false,
-            name: "雌小鬼"
+            name: "Female ghost"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E4%B8%8D%E8%89%AF%E5%B0%91%E5%A5%B3",
             state: false,
-            name: "不良少女"
+            name: "Bad Girl"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%82%B2%E5%AC%8C",
             state: false,
-            name: "傲嬌"
+            name: "Tsundere"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%97%85%E5%AC%8C",
             state: false,
-            name: "病嬌"
+            name: "yandere"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%84%A1%E5%8F%A3",
             state: false,
-            name: "無口"
+            name: "Silent"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%81%BD%E5%A8%98",
             state: false,
-            name: "偽娘"
+            name: "transvestite"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%89%B6%E4%BB%96",
             state: false,
-            name: "扶他"
+            name: "Futa"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%9F%AD%E9%AB%AE",
             state: false,
-            name: "短髮"
+            name: "short hair"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E9%A6%AC%E5%B0%BE",
             state: false,
-            name: "馬尾"
+            name: "ponytail"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E9%9B%99%E9%A6%AC%E5%B0%BE",
             state: false,
-            name: "雙馬尾"
+            name: "Twin ponytails"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%B7%A8%E4%B9%B3",
             state: false,
-            name: "巨乳"
+            name: "Big Breasts"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%B2%A7%E4%B9%B3",
             state: false,
-            name: "貧乳"
+            name: "Small breasts"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E9%BB%91%E7%9A%AE%E8%86%9A",
             state: false,
-            name: "黑皮膚"
+            name: "dark skin"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%9C%BC%E9%8F%A1%E5%A8%98",
             state: false,
-            name: "眼鏡娘"
+            name: "Glasses girl"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%8D%B8%E8%80%B3",
             state: false,
-            name: "獸耳"
+            name: "animal ears"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%BE%8E%E4%BA%BA%E7%97%A3",
             state: false,
-            name: "美人痣"
+            name: "Beauty mark"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%82%8C%E8%82%89%E5%A5%B3",
             state: false,
-            name: "肌肉女"
+            name: "Muscle woman"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%99%BD%E8%99%8E",
             state: false,
-            name: "白虎"
+            name: "White Tiger"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E9%99%B0%E6%AF%9B",
             state: false,
-            name: "陰毛"
+            name: "pubic hair"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%85%8B%E6%AF%9B",
             state: false,
-            name: "腋毛"
+            name: "Armpit Hair"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%A4%A7%E5%B1%8C",
             state: false,
-            name: "大屌"
+            name: "Big Dick"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%B0%B4%E6%89%8B%E6%9C%8D",
             state: false,
-            name: "水手服"
+            name: "Sailor Suit"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E9%AB%94%E6%93%8D%E6%9C%8D",
             state: false,
-            name: "體操服"
+            name: "gymnastics uniform"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%B3%B3%E8%A3%9D",
             state: false,
-            name: "泳裝"
+            name: "swimsuit"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%AF%94%E5%9F%BA%E5%B0%BC",
             state: false,
-            name: "比基尼"
+            name: "Bikini"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%92%8C%E6%9C%8D",
             state: false,
-            name: "和服"
+            name: "kimono"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%85%94%E5%A5%B3%E9%83%8E",
             state: false,
-            name: "兔女郎"
+            name: "Bunny Girl"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%9C%8D%E8%A3%99",
             state: false,
-            name: "圍裙"
+            name: "apron"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%95%A6%E5%95%A6%E9%9A%8A",
             state: false,
-            name: "啦啦隊"
+            name: "Cheerleading"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%97%97%E8%A2%8D",
             state: false,
-            name: "旗袍"
+            name: "cheongsam"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%B5%B2%E8%A5%AA",
             state: false,
-            name: "絲襪"
+            name: "stockings"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%90%8A%E8%A5%AA%E5%B8%B6",
             state: false,
-            name: "吊襪帶"
+            name: "garters"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%86%B1%E8%A4%B2",
             state: false,
-            name: "熱褲"
+            name: "hot pants"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%BF%B7%E4%BD%A0%E8%A3%99",
             state: false,
-            name: "迷你裙"
+            name: "mini skirt"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%80%A7%E6%84%9F%E5%85%A7%E8%A1%A3",
             state: false,
-            name: "性感內衣"
+            name: "Sexy lingerie"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E4%B8%81%E5%AD%97%E8%A4%B2",
             state: false,
-            name: "丁字褲"
+            name: "thong"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E9%AB%98%E8%B7%9F%E9%9E%8B",
             state: false,
-            name: "高跟鞋"
+            name: "High heel"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%B7%AB%E7%B4%8B",
             state: false,
-            name: "淫紋"
+            name: "Obscene lines"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%B4%94%E6%84%9B",
             state: false,
-            name: "純愛"
+            name: "pure love"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%88%80%E6%84%9B%E5%96%9C%E5%8A%87",
             state: false,
-            name: "戀愛喜劇"
+            name: "romantic comedy"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%BE%8C%E5%AE%AE",
             state: false,
-            name: "後宮"
+            name: "harem"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E9%96%8B%E5%A4%A7%E8%BB%8A",
             state: false,
-            name: "開大車"
+            name: "drive a big car"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%85%AC%E7%9C%BE%E5%A0%B4%E5%90%88",
             state: false,
-            name: "公眾場合"
+            name: "public places"
           },
           {
             type_name: "CheckBox",
@@ -691,37 +691,37 @@ class DefaultExtension extends MProvider {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%B2%BE%E7%A5%9E%E6%8E%A7%E5%88%B6",
             state: false,
-            name: "精神控制"
+            name: "Mind Control"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%97%A5%E7%89%A9",
             state: false,
-            name: "藥物"
+            name: "drug"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%97%B4%E6%BC%A2",
             state: false,
-            name: "痴漢"
+            name: "Molester"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E9%98%BF%E5%98%BF%E9%A1%8F",
             state: false,
-            name: "阿嘿顏"
+            name: "Aheyan"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%B2%BE%E7%A5%9E%E5%B4%A9%E6%BD%B0",
             state: false,
-            name: "精神崩潰"
+            name: "nervous breakdown"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%8D%B5%E5%A5%87",
             state: false,
-            name: "獵奇"
+            name: "Curiosity"
           },
           {
             type_name: "CheckBox",
@@ -733,187 +733,187 @@ class DefaultExtension extends MProvider {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%B6%91%E7%B6%81",
             state: false,
-            name: "綑綁"
+            name: "bundle"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%9C%BC%E7%BD%A9",
             state: false,
-            name: "眼罩"
+            name: "Eye mask"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E9%A0%85%E5%9C%88",
             state: false,
-            name: "項圈"
+            name: "necklace"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%AA%BF%E6%95%99",
             state: false,
-            name: "調教"
+            name: "training"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%95%B0%E7%89%A9%E6%8F%92%E5%85%A5",
             state: false,
-            name: "異物插入"
+            name: "Foreign body insertion"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%82%89%E4%BE%BF%E5%99%A8",
             state: false,
-            name: "肉便器"
+            name: "Flesh toilet"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%83%83%E5%87%B8",
             state: false,
-            name: "胃凸"
+            name: "Stomach bulge"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%BC%B7%E5%88%B6",
             state: false,
-            name: "強制"
+            name: "force"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%BC%AA%E5%A7%A6",
             state: false,
-            name: "輪姦"
+            name: "gang rape"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%87%8C%E8%BE%B1",
             state: false,
-            name: "凌辱"
+            name: "Humiliation"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%80%A7%E6%9A%B4%E5%8A%9B",
             state: false,
-            name: "性暴力"
+            name: "Sexual violence"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E9%80%86%E5%BC%B7%E5%88%B6",
             state: false,
-            name: "逆強制"
+            name: "Counter coercion"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%A5%B3%E7%8E%8B%E6%A8%A3",
             state: false,
-            name: "女王樣"
+            name: "Queenlike"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%AF%8D%E5%A5%B3%E4%B8%BC",
             state: false,
-            name: "母女丼"
+            name: "Mother and Daughter Donburi"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%A7%90%E5%A6%B9%E4%B8%BC",
             state: false,
-            name: "姐妹丼"
+            name: "Sisters Donburi"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%87%BA%E8%BB%8C",
             state: false,
-            name: "出軌"
+            name: "Cheating"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%94%9D%E5%BD%B1",
             state: false,
-            name: "攝影"
+            name: "photography"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%9D%A1%E7%9C%A0%E5%A7%A6",
             state: false,
-            name: "睡眠姦"
+            name: "sleep rape"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%A9%9F%E6%A2%B0%E5%A7%A6",
             state: false,
-            name: "機械姦"
+            name: "Mechanical rape"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%80%A7%E8%BD%89%E6%8F%9B",
             state: false,
-            name: "性轉換"
+            name: "sexual conversion"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%99%BE%E5%90%88",
             state: false,
-            name: "百合"
+            name: "lily"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%80%BD%E7%BE%8E",
             state: false,
-            name: "耽美"
+            name: "Danmei"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%95%B0%E4%B8%96%E7%95%8C",
             state: false,
-            name: "異世界"
+            name: "Another world"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%80%AA%E7%8D%B8",
             state: false,
-            name: "怪獸"
+            name: "monster"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E4%B8%96%E7%95%8C%E6%9C%AB%E6%97%A5",
             state: false,
-            name: "世界末日"
+            name: "The End of the World"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%89%8B%E4%BA%A4",
             state: false,
-            name: "手交"
+            name: "Handjob"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%8C%87%E4%BA%A4",
             state: false,
-            name: "指交"
+            name: "Fingering"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E4%B9%B3%E4%BA%A4",
             state: false,
-            name: "乳交"
+            name: "Titty fuck"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%82%9B%E4%BA%A4",
             state: false,
-            name: "肛交"
+            name: "Anal sex"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%85%B3%E4%BA%A4",
             state: false,
-            name: "腳交"
+            name: "Footjob"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%8B%B3%E4%BA%A4",
             state: false,
-            name: "拳交"
+            name: "Fisting"
           },
           {
             type_name: "CheckBox",
@@ -925,37 +925,37 @@ class DefaultExtension extends MProvider {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E7%BE%A4%E4%BA%A4",
             state: false,
-            name: "群交"
+            name: "Group Sex"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%8F%A3%E4%BA%A4",
             state: false,
-            name: "口交"
+            name: "oral sex"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%8F%A3%E7%88%86",
             state: false,
-            name: "口爆"
+            name: "BJ"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%90%9E%E7%B2%BE",
             state: false,
-            name: "吞精"
+            name: "Swallowing sperm"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%88%94%E8%9B%8B%E8%9B%8B",
             state: false,
-            name: "舔蛋蛋"
+            name: "Licking balls"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%88%94%E7%A9%B4",
             state: false,
-            name: "舔穴"
+            name: "Licking pussy"
           },
           {
             type_name: "CheckBox",
@@ -967,144 +967,144 @@ class DefaultExtension extends MProvider {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%87%AA%E6%85%B0",
             state: false,
-            name: "自慰"
+            name: "Masturbation"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%85%8B%E4%BA%A4",
             state: false,
-            name: "腋交"
+            name: "Armpit"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%88%94%E8%85%8B%E4%B8%8B",
             state: false,
-            name: "舔腋下"
+            name: "Licking armpits"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%85%A7%E5%B0%84",
             state: false,
-            name: "內射"
+            name: "Creampie"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E9%A1%8F%E5%B0%84",
             state: false,
-            name: "顏射"
+            name: "Facial cumshot"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E9%9B%99%E6%B4%9E%E9%BD%8A%E4%B8%8B",
             state: false,
-            name: "雙洞齊下"
+            name: "Double holes"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%87%B7%E5%AD%95",
             state: false,
-            name: "懷孕"
+            name: "pregnant"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E5%99%B4%E5%A5%B6",
             state: false,
-            name: "噴奶"
+            name: "Milk spray"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%94%BE%E5%B0%BF",
             state: false,
-            name: "放尿"
+            name: "Urinating"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%8E%92%E4%BE%BF",
             state: false,
-            name: "排便"
+            name: "Defecation"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E9%A1%8F%E9%9D%A2%E9%A8%8E%E4%B9%98",
             state: false,
-            name: "顏面騎乘"
+            name: "Face riding"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%BB%8A%E9%9C%87",
             state: false,
-            name: "車震"
+            name: "Car Sex"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%80%A7%E7%8E%A9%E5%85%B7",
             state: false,
-            name: "性玩具"
+            name: "Sex toys"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E6%AF%92%E9%BE%8D%E9%91%BD",
             state: false,
-            name: "毒龍鑽"
+            name: "Dragon Diamond"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%A7%B8%E6%89%8B",
             state: false,
-            name: "觸手"
+            name: "Tentacles"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E9%A0%B8%E6%89%8B%E6%9E%B7",
             state: false,
-            name: "頸手枷"
+            name: "Neck and Handcuffs"
           },
           {
             type_name: "CheckBox",
             value: "&tags%5B%5D=%E8%91%97%E8%A1%A3",
             state: false,
-            name: "著衣"
+            name: "Clothing"
           }
         ]
       },
       {
         type: "sort",
-        name: "排序",
+        name: "Sorting",
         type_name: "SelectFilter",
         values: [{
             type_name: "SelectOption",
             value: "&sort=%E6%9C%80%E6%96%B0%E4%B8%8A%E5%B8%82",
-            name: "最新上市"
+            name: "Latest Listings"
           },
           {
             type_name: "SelectOption",
             value: "&sort=%E6%9C%80%E6%96%B0%E4%B8%8A%E5%82%B3",
-            name: "最新上傳"
+            name: "Latest uploads"
           },
           {
             type_name: "SelectOption",
             value: "&sort=%E6%9C%AC%E6%97%A5%E6%8E%92%E8%A1%8C",
-            name: "本日排行"
+            name: "Today's ranking"
           },
           {
             type_name: "SelectOption",
             value: "&sort=%E6%9C%AC%E9%80%B1%E6%8E%92%E8%A1%8C",
-            name: "本週排行"
+            name: "This week's ranking"
           },
           {
             type_name: "SelectOption",
             value: "&sort=%E6%9C%AC%E6%9C%88%E6%8E%92%E8%A1%8C",
-            name: "本月排行"
+            name: "This month's ranking"
           },
           {
             type_name: "SelectOption",
             value: "&sort=%E8%A7%80%E7%9C%8B%E6%AC%A1%E6%95%B8",
-            name: "觀看次數"
+            name: "Views"
           },
           {
             type_name: "SelectOption",
             value: "&sort=%E4%BB%96%E5%80%91%E5%9C%A8%E7%9C%8B",
-            name: "他們在看"
+            name: "They are watching"
           }
         ]
       }
