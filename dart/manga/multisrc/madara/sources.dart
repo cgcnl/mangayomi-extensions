@@ -195,7 +195,6 @@ import 'src/mangakitsune/mangakitsune.dart';
 import 'src/mangaleveling/mangaleveling.dart';
 import 'src/manhuamanhwa/manhuamanhwa.dart';
 import 'src/manhuatop/manhuatop.dart';
-import 'src/manhwa365/manhwa365.dart';
 import 'src/manhwahentai/manhwahentai.dart';
 import 'src/manhwuafans/manhwuafans.dart';
 import 'src/neatmanga/neatmanga.dart';
@@ -769,8 +768,6 @@ List<Source> _madaraSourcesList = [
   manhuamanhwaSource,
 //ManhuaTop (EN)
   manhuatopSource,
-//Manhwa365 (EN)
-  manhwa365Source,
 //Manhwa Hentai (EN)
   manhwahentaiSource,
 //Manhwua.fans (EN)

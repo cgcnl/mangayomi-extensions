@@ -5,7 +5,6 @@ import 'multisrc/mangabox/sources.dart';
 import 'multisrc/mangareader/sources.dart';
 import 'multisrc/mmrcms/sources.dart';
 import 'multisrc/nepnep/sources.dart';
-import 'src/all/batoto/sources.dart';
 import 'src/all/comick/sources.dart';
 import 'src/all/mangadex/sources.dart';
 import 'src/all/nhentai/sources.dart';
@@ -21,6 +20,5 @@ List<Source> dartMangasourceList = [
   mangahereSource,
   ...nepnepSourcesList,
   ...mangaboxSourcesList,
-  ...batotoSourcesList,
   ...nhentaiSourcesList
 ];
