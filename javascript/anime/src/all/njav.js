@@ -7,7 +7,7 @@ const mangayomiSources = [{
     "typeSource": "single",
     "isManga": false,
     "isNsfw": true,
-    "version": "0.0.1",
+    "version": "0.0.2",
     "apiUrl": "",
     "dateFormat": "",
     "dateFormatLocale": "",
@@ -34,7 +34,7 @@ const mangayomiSources = [{
     async getItems(url) {
       const res = await this.request(url);
       const doc = new Document(res);
-      const elements = doc.select("div.box-item");
+      const elements = doc.select(".box-item-list .box-item");
       const items = [];
       for (const element of elements) {
         const cover = element.selectFirst("img").attr("data-src");
@@ -47,6 +47,7 @@ const mangayomiSources = [{
           name: title
         });
       }
+      console.log(items.length);
       return {
         list: items,
         hasNextPage: true
@@ -176,97 +177,97 @@ const mangayomiSources = [{
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/fc2",
+              "value": "dm1/tags/fc2",
               "name": "FC2",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/heyzo",
+              "value": "dm2/tags/heyzo",
               "name": "HEYZO",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/tokyo-hot",
+              "value": "dm1/tags/tokyo-hot",
               "name": "Tokyo-Hot",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/1pondo",
+              "value": "dm2/tags/1pondo",
               "name": "1pondo",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/caribbeancom",
+              "value": "dm1/tags/caribbeancom",
               "name": "Caribbeancom",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/caribbeancompr",
+              "value": "dm1/tags/caribbeancompr",
               "name": "Caribbeancompr",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/10musume",
+              "value": "dm2/tags/10musume",
               "name": "10musume",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/pacopacomama",
+              "value": "dm2/tags/pacopacomama",
               "name": "pacopacomama",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/gachig",
+              "value": "dm1/tags/gachig",
               "name": "Gachinco",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/xxx-av",
+              "value": "dm1/tags/xxx-av",
               "name": "XXX-AV",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/c0930",
+              "value": "dm1/tags/c0930",
               "name": "C0930",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/h4610",
+              "value": "dm1/tags/h4610",
               "name": "H4610",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/h0930",
+              "value": "dm1/tags/h0930",
               "name": "H0930",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/siro",
+              "value": "dm1/tags/siro",
               "name": "SIRO",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/259luxu",
+              "value": "dm1/tags/259luxu",
               "name": "LUXU",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/200gana",
+              "value": "dm1/tags/200gana",
               "name": "200GANA",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/prestige-premium",
+              "value": "dm1/tags/prestige-premium",
               "name": "PRESTIGE PREMIUM",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/s-cute",
+              "value": "dm1/tags/s-cute",
               "name": "S-CUTE",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/261ara",
+              "value": "dm1/tags/261ara",
               "name": "ARA",
               "type_name": "SelectOption"
             }
