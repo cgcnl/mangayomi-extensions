@@ -157,117 +157,117 @@ const mangayomiSources = [{
               "type_name": "SelectOption"
             },
             {
-              "value": "censored",
+              "value": "dm3/censored",
               "name": "Censored",
               "type_name": "SelectOption"
             },
             {
-              "value": "uncensored",
+              "value": "dm3/uncensored",
               "name": "Uncensored",
               "type_name": "SelectOption"
             },
             {
-              "value": "uncensored-leaked",
+              "value": "dm3/uncensored-leaked",
               "name": "Uncensored Leaked",
               "type_name": "SelectOption"
             },
             {
-              "value": "vr",
+              "value": "dm3/vr",
               "name": "VR",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/fc2",
+              "value": "dm4/tags/fc2",
               "name": "FC2",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/heyzo",
+              "value": "dm11/tags/heyzo",
               "name": "HEYZO",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/tokyo-hot",
+              "value": "dm4/tags/tokyo-hot",
               "name": "Tokyo-Hot",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/1pondo",
+              "value": "dm11/tags/1pondo",
               "name": "1pondo",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/caribbeancom",
+              "value": "dm8/tags/caribbeancom",
               "name": "Caribbeancom",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/caribbeancompr",
+              "value": "dm5/tags/caribbeancompr",
               "name": "Caribbeancompr",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/10musume",
+              "value": "dm9/tags/10musume",
               "name": "10musume",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/pacopacomama",
+              "value": "dm7/tags/pacopacomama",
               "name": "pacopacomama",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/gachig",
+              "value": "dm3/tags/gachig",
               "name": "Gachinco",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/xxx-av",
+              "value": "dm3/tags/xxx-av",
               "name": "XXX-AV",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/c0930",
+              "value": "dm5/tags/c0930",
               "name": "C0930",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/h4610",
+              "value": "dm3/tags/h4610",
               "name": "H4610",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/h0930",
+              "value": "dm6/tags/h0930",
               "name": "H0930",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/siro",
+              "value": "dm3/tags/siro",
               "name": "SIRO",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/259luxu",
+              "value": "dm3/tags/259luxu",
               "name": "LUXU",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/200gana",
+              "value": "dm3/tags/200gana",
               "name": "200GANA",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/prestige-premium",
+              "value": "dm3/tags/prestige-premium",
               "name": "PRESTIGE PREMIUM",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/s-cute",
+              "value": "dm3/tags/s-cute",
               "name": "S-CUTE",
               "type_name": "SelectOption"
             },
             {
-              "value": "tags/261ara",
+              "value": "dm3/tags/261ara",
               "name": "ARA",
               "type_name": "SelectOption"
             }
@@ -340,7 +340,7 @@ const mangayomiSources = [{
             "summary": "",
             "valueIndex": 0,
             "entries": ["njav", "missav", "javgo", "supjav"],
-            "entryValues": ["https://njav.com", "https://njav.xyz", "https://missav.li", "https://www.javgo.to", "https://supjav.pro"],
+            "entryValues": ["https://njav.xyz", "https://missav.li", "https://www.javgo.to", "https://supjav.pro"],
           }
         }
       ];
