@@ -7,7 +7,7 @@ const mangayomiSources = [{
     "typeSource": "single",
     "isManga": false,
     "isNsfw": false,
-    "version": "0.0.15",
+    "version": "0.0.26",
     "dateFormat": "",
     "dateFormatLocale": "",
     "pkgPath": "anime/src/de/aniworld.js"
@@ -123,13 +123,44 @@ class DefaultExtension extends MProvider {
         }
         return {}
     }
+    getRandomString(length) {
+        const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890";
+        let result = "";
+        for (let i = 0; i < length; i++) {
+            const random = Math.floor(Math.random() * 61);
+            result += chars[random];
+        }
+        return result;
+    }
+    async doodExtractor(url, quality) {
+        let response = await new Client({ 'useDartHttpClient': true, "followRedirects": false }).get(url);
+        while("location" in response.headers) {
+            response = await new Client({ 'useDartHttpClient': true, "followRedirects": false }).get(response.headers.location);
+        }
+        const newUrl = response.request.url;
+        const doodhost = newUrl.match(/https:\/\/(.*?)\//, newUrl)[0].slice(8, -1);
+        const md5 = response.body.match(/'\/pass_md5\/(.*?)',/, newUrl)[0].slice(11, -2);
+        const token = md5.substring(md5.lastIndexOf("/") + 1);
+        const expiry = new Date().valueOf();
+        const randomString = this.getRandomString(10);
+    
+        response = await new Client().get(`https://${doodhost}/pass_md5/${md5}`, {"Referer": newUrl});
+        const videoUrl = `${response.body}${randomString}?token=${token}&expiry=${expiry}`;
+        const headers = { "User-Agent": "Mangayomi", "Referer": doodhost };
+        return [{ url: videoUrl, originalUrl: videoUrl, headers: headers, quality }];
+    }
+    async vidozaExtractor(url, quality) {
+        let response = await new Client({ 'useDartHttpClient': true, "followRedirects": true }).get(url);
+        const videoUrl = response.body.match(/https:\/\/\S*\.mp4/)[0];
+        return [{ url: videoUrl, originalUrl: videoUrl, quality }];
+    }
     async getVideoList(url) {
         const baseUrl = this.source.baseUrl;
         const res = await new Client().get(baseUrl + url);
         const document = new Document(res.body);
         const redirectlink = document.select("ul.row li");
         const preference = new SharedPreferences();
-        const hosterSelection = preference.get("hoster_selection");
+        const hosterSelection = preference.get("hoster_selection_new");
         const videos = [];
         for (const element of redirectlink) {
             try {
@@ -146,25 +177,32 @@ class DefaultExtension extends MProvider {
                 const hoster = element.selectFirst("a h4").text;
 
                 if (hoster == "Streamtape" && hosterSelection.includes("Streamtape")) {
-                    const body = (await new Client().get(redirectgs)).body;
-                    const quality = `Streamtape ${language}`;
-                    const vids = await streamTapeExtractor(body.match(/https:\/\/streamtape\.com\/e\/[a-zA-Z0-9]+/g)[0], quality);
+                    const location = (await new Client({ 'useDartHttpClient': true, "followRedirects": false }).get(redirectgs)).headers.location;
+                    const quality = `${language} - Streamtape`;
+                    const vids = await streamTapeExtractor(location, quality);
                     for (const vid of vids) {
                         videos.push(vid);
                     }
                 } else if (hoster == "VOE" && hosterSelection.includes("VOE")) {
-                    const body = (await new Client().get(redirectgs)).body;
-                    const quality = `VOE ${language}`;
-                    const vids = await voeExtractor(body.match(/https:\/\/voe\.sx\/e\/[a-zA-Z0-9]+/g)[0], quality);
+                    const location = (await new Client({ 'useDartHttpClient': true, "followRedirects": false }).get(redirectgs)).headers.location;
+                    const quality = `${language} - `;
+                    const vids = await voeExtractor(location, quality);
                     for (const vid of vids) {
                         videos.push(vid);
                     }
                 } else if (hoster == "Vidoza" && hosterSelection.includes("Vidoza")) {
-                    const body = (await new Client().get(redirectgs)).body;
-                    const quality = `Vidoza ${language}`;
-                    const match = body.match(/https:\/\/[^\s]*\.vidoza\.net\/[^\s]*\.mp4/g);
-                    if (match.length > 0) {
-                        videos.push({ url: match[0], originalUrl: match[0], quality });
+                    const location = (await new Client({ 'useDartHttpClient': true, "followRedirects": false }).get(redirectgs)).headers.location;
+                    const quality = `${language} - Vidoza`;
+                    const vids = await this.vidozaExtractor(location, quality);
+                    for (const vid of vids) {
+                        videos.push(vid);
+                    }
+                } else if (hoster == "Doodstream" && hosterSelection.includes("Doodstream")) {
+                    const location = (await new Client({ 'useDartHttpClient': true, "followRedirects": false }).get(redirectgs)).headers.location;
+                    const quality = `${language} - Doodstream`;
+                    const vids = await this.doodExtractor(location, quality);
+                    for (const vid of vids) {
+                        videos.push(vid);
                     }
                 }
             } catch (_) {
@@ -175,7 +213,7 @@ class DefaultExtension extends MProvider {
     }
     sortVideos(videos) {
         const preference = new SharedPreferences();
-        const hoster = preference.get("preferred_hoster");
+        const hoster = preference.get("preferred_hoster_new");
         const subPreference = preference.get("preferred_lang");
         videos.sort((a, b) => {
             let qualityMatchA = 0;
@@ -213,7 +251,7 @@ class DefaultExtension extends MProvider {
                 }
             },
             {
-                "key": "preferred_hoster",
+                "key": "preferred_hoster_new",
                 "listPreference": {
                     "title": "Standard-Hoster",
                     "summary": "",
@@ -221,34 +259,34 @@ class DefaultExtension extends MProvider {
                     "entries": [
                         "Streamtape",
                         "VOE",
-                        "Vidoza"
+                        "Vidoza", "Doodstream"
                     ],
                     "entryValues": [
                         "Streamtape",
                         "VOE",
-                        "Vidoza"
+                        "Vidoza", "Doodstream"
                     ]
                 }
             },
             {
-                "key": "hoster_selection",
+                "key": "hoster_selection_new",
                 "multiSelectListPreference": {
                     "title": "Hoster auswählen",
                     "summary": "",
                     "entries": [
                         "Streamtape",
                         "VOE",
-                        "Vidoza"
+                        "Vidoza", "Doodstream"
                     ],
                     "entryValues": [
                         "Streamtape",
                         "VOE",
-                        "Vidoza"
+                        "Vidoza", "Doodstream"
                     ],
                     "values": [
                         "Streamtape",
                         "VOE",
-                        "Vidoza"
+                        "Vidoza", "Doodstream"
                     ]
                 }
             }
