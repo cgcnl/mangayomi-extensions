@@ -7,7 +7,7 @@ const mangayomiSources = [{
     "typeSource": "single",
     "isManga": false,
     "isNsfw": true,
-    "version": "0.0.3",
+    "version": "0.0.4",
     "apiUrl": "",
     "dateFormat": "",
     "dateFormatLocale": "",
@@ -118,7 +118,10 @@ const mangayomiSources = [{
       } catch {
         genres = [];
       }
-      const id = body.selectFirst("div.container").attr("v-scope").slice(12, -3);
+      const v_scope = body.selectFirst("div.container").attr("v-scope");
+      const comma_idx = v_scope.indexOf(",");
+      const start_idx = v_scope.indexOf("id: ") + 4;
+      const id = v_scope.slice(start_idx, comma_idx);
       const eps = await this.getEpisodes(id, updateTime);
       return {
         name: title,
