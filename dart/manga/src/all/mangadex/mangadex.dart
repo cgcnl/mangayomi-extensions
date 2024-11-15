@@ -387,6 +387,8 @@ class MangaDex extends MProvider {
       GroupFilter("ContentRatingList", "Content rating", [
         CheckBoxFilter("Safe", "contentRating[]=safe", state: true),
         CheckBoxFilter("Suggestive", "contentRating[]=suggestive", state: true),
+        CheckBoxFilter("Erotica", "contentRating[]=erotica"),
+        CheckBoxFilter("Pornographic", "contentRating[]=pornographic"),
       ]),
       GroupFilter("DemographicList", "Publication demographic", [
         CheckBoxFilter("None", "publicationDemographic[]=none"),
