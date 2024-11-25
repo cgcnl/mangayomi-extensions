@@ -2,7 +2,6 @@ import '../../../../model/source.dart';
 import 'src/beastscans/beastscans.dart';
 import 'src/funtoons/funtoons.dart';
 import 'src/lelmanga/lelmanga.dart';
-import 'src/asurascans/asurascans.dart';
 import 'src/komiklab/komiklab.dart';
 import 'src/azurescans/azurescans.dart';
 import 'src/cosmicscans/cosmicscans.dart';
@@ -137,8 +136,6 @@ List<Source> _mangareaderSourcesList = [
   beastscansSource,
 //Lelmanga (FR)
   lelmangaSource,
-//Asura Scans (EN)
-  asurascansSource,
 //KomikLab Scans (EN)
   komiklabSource,
 //Azure Scans (EN)
