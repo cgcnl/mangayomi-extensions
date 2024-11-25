@@ -4,7 +4,7 @@ const mangayomiSources = [{
     "lang": "en",
     "baseUrl": "https://asuracomic.net",
     "apiUrl": "",
-    "iconUrl": "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/main/javascript/icon/en.asurascans.png",
+    "iconUrl": "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/javascript/icon/en.asurascans.png",
     "typeSource": "single",
     "isManga": true,
     "version": "0.1.65",

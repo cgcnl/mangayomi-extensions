@@ -3,7 +3,7 @@ const mangayomiSources = [{
     "lang": "all",
     "baseUrl": "https://iosmirror.cc",
     "apiUrl": "",
-    "iconUrl": "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/main/javascript/icon/all.netflixmirror.png",
+    "iconUrl": "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/javascript/icon/all.netflixmirror.png",
     "typeSource": "single",
     "isManga": false,
     "version": "0.0.45",
