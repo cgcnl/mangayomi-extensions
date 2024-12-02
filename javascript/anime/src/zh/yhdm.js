@@ -3,7 +3,7 @@ const mangayomiSources = [{
   "lang": "zh",
   "baseUrl": "http://www.iyinghua.com",
   "apiUrl": "",
-  "iconUrl": "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/main/javascript/icon/zh.yhdm.png",
+  "iconUrl": "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/javascript/icon/zh.yhdm.png",
   "typeSource": "single",
   "isManga": false,
   "isNsfw": false,

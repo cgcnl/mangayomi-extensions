@@ -3,7 +3,7 @@ const mangayomiSources = [{
     "lang": "zh",
     "baseUrl": "https://www.mangacopy.com",
     "apiUrl": "https://api.mangacopy.com",
-    "iconUrl": "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/main/javascript/icon/zh.copymanga.png",
+    "iconUrl": "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/javascript/icon/zh.copymanga.png",
     "typeSource": "single",
     "isManga": true,
     "isNsfw": false,

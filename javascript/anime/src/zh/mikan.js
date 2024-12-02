@@ -3,7 +3,7 @@ const mangayomiSources = [{
   "lang": "zh",
   "baseUrl": "https://mikanime.tv",
   "apiUrl": "",
-  "iconUrl": "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/main/javascript/icon/zh.mikan.png",
+  "iconUrl": "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/javascript/icon/zh.mikan.png",
   "typeSource": "torrent",
   "isManga": false,
   "isNsfw": false,
