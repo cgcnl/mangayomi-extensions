@@ -6,7 +6,7 @@ const mangayomiSources = [{
     "iconUrl": "https://cdn.jkanime.net/logo_jk.png",
     "typeSource": "single",
     "isManga": false,
-    "version": "0.1.11",
+    "version": "0.1.13",
     "dateFormat": "",
     "dateFormatLocale": "",
     "pkgPath": "anime/src/es/jkanime.js"
@@ -61,7 +61,7 @@ class DefaultExtension extends MProvider {
         return { "list": list, "hasNextPage": false };
     }
     async getLatestUpdates(page) {
-        return this.parseAnimeList(`${this.source.baseUrl}/directorio/${page}/`);
+        return await this.parseAnimeList(`${this.source.baseUrl}/directorio/${page}/`);
     }
     async search(query, page, filters) {
         query = query.trim().replaceAll(/\ +/g, "_");
@@ -85,7 +85,7 @@ class DefaultExtension extends MProvider {
             url += `/${filters[7].values[filters[7].state].value}`;
             url += `/${filters[8].values[filters[8].state].value}`;
         }        
-        return this.parseAnimeList(url);
+        return await this.parseAnimeList(url);
     }
     async getDetail(url) {
         let res = await this.client.get(url);
@@ -388,7 +388,7 @@ class DefaultExtension extends MProvider {
 
 /***************************************************************************************************
 * 
-*   mangayomi-js-helpers v1.1
+*   mangayomi-js-helpers v1.2
 *       
 *   # Video Extractors
 *       - vidGuardExtractor
@@ -400,6 +400,7 @@ class DefaultExtension extends MProvider {
 *       - filemoonExtractor
 *       - mixdropExtractor
 *       - speedfilesExtractor
+*       - luluvdoExtractor
 *       - burstcloudExtractor (not working, see description)
 *   
 *   # Video Extractor Wrappers
@@ -526,15 +527,20 @@ async function vidHideExtractor(url) {
 }
 
 async function filemoonExtractor(url, headers) {
+    headers = headers ?? {};
+    headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
+    delete headers['user-agent'];
+    
     let res = await new Client().get(url, headers);
     const src = res.body.match(/iframe src="(.*?)"/)?.[1];
     if (src) {
         res = await new Client().get(src, {
             'Referer': url,
-            'Accept-Language': 'de,en-US;q=0.7,en;q=0.3'
+            'Accept-Language': 'de,en-US;q=0.7,en;q=0.3',
+            'User-Agent': headers['User-Agent']
         });
     }
-    return await jwplayerExtractor(res.body);
+    return await jwplayerExtractor(res.body, headers);
 }
 
 async function mixdropExtractor(url) {
@@ -587,6 +593,14 @@ async function speedfilesExtractor(url) {
     const videoUrl = Uint8Array.fromBase64(step3).decode();
     
     return [{url: videoUrl, originalUrl: videoUrl, quality: '', headers: null}];
+}
+
+async function luluvdoExtractor(url) {
+    const client = new Client();    
+    const match = url.match(/(.*?:\/\/.*?)\/.*\/(.*)/);
+    const headers = {'user-agent': 'Mangayomi'};
+    const res = await client.get(`${match[1]}/dl?op=embed&file_code=${match[2]}`, headers);    
+    return await jwplayerExtractor(res.body, headers);
 }
 
 /** Does not work: Client always sets 'charset=utf-8' in Content-Type. */
@@ -690,6 +704,7 @@ extractAny.methods = {
     'burstcloud': burstcloudExtractor,
     'doodstream': doodExtractor,
     'filemoon': filemoonExtractor,
+    'luluvdo': luluvdoExtractor,
     'mixdrop': mixdropExtractor,
     'mp4upload': mp4UploadExtractor,
     'okru': okruExtractor,
@@ -740,6 +755,10 @@ async function m3u8Extractor(url, headers = null) {
 
     const res = await new Client().get(url, headers);
     const text = res.body;
+
+    if (res.statusCode != 200) {
+        return [];
+    }
 
     // collect media
     for (const match of text.matchAll(/#EXT-X-MEDIA:(.*)/g)) {
