@@ -4,7 +4,7 @@ import 'multisrc/dopeflix/sources.dart';
 import 'multisrc/zorotheme/sources.dart';
 import 'src/all/animeworldindia/sources.dart';
 import 'src/all/nyaa/source.dart';
-import 'src/all/sukebei/sukebei.dart';
+import 'src/all/sukebei/source.dart';
 import 'src/ar/okanime/source.dart';
 import 'src/de/animetoast/source.dart';
 import 'src/en/animepahe/source.dart';
