@@ -7,7 +7,7 @@ Source _mangasparkSource = Source(
     lang: "ar",
     isNsfw:false,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/mangaspark/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/main/dart/manga/multisrc/madara/src/mangaspark/icon.png",
     dateFormat:"d MMMM، yyyy",
     dateFormatLocale:"ar"
   );

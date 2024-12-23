@@ -7,7 +7,7 @@ Source _mangalionzSource = Source(
     lang: "ar",
     isNsfw:false,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/mangalionz/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/dart/manga/multisrc/madara/src/mangalionz/icon.png",
     dateFormat:"MMMM d, yyyy",
     dateFormatLocale:"ar"
   );

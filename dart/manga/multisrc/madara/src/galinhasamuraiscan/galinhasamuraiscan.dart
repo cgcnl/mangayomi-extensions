@@ -7,7 +7,7 @@ Source _galinhasamuraiscanSource = Source(
     lang: "pt-br",
     isNsfw:false,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/galinhasamuraiscan/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/dart/manga/multisrc/madara/src/galinhasamuraiscan/icon.png",
     dateFormat:"dd/MM/yyyy",
     dateFormatLocale:"pt-br"
   );
