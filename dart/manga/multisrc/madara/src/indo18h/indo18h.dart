@@ -7,7 +7,7 @@ Source _indo18hSource = Source(
     lang: "id",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/indo18h/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/dart/manga/multisrc/madara/src/indo18h/icon.png",
     dateFormat:"MMMM d, yyyy",
     dateFormatLocale:"id"
   );

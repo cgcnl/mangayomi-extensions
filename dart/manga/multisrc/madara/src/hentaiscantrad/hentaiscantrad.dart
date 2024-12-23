@@ -7,7 +7,7 @@ Source _hentaiscantradSource = Source(
     lang: "fr",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/hentaiscantrad/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/dart/manga/multisrc/madara/src/hentaiscantrad/icon.png",
     dateFormat:"d MMMM, yyyy",
     dateFormatLocale:"fr"
   );

@@ -7,7 +7,7 @@ Source _webtoonxyzSource = Source(
     lang: "en",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/webtoonxyz/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/dart/manga/multisrc/madara/src/webtoonxyz/icon.png",
     dateFormat:"dd MMMM yyyy",
     dateFormatLocale:"en_us"
   );

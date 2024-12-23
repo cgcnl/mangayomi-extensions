@@ -7,7 +7,7 @@ Source _milasubSource = Source(
     lang: "tr",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/milasub/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/dart/manga/multisrc/madara/src/milasub/icon.png",
     dateFormat:"d MMMM yyyy",
     dateFormatLocale:"tr"
   );

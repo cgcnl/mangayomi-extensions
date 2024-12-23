@@ -7,7 +7,7 @@ Source _manhwa18ccSource = Source(
     lang: "all",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/manhwa18cc/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/dart/manga/multisrc/madara/src/manhwa18cc/icon.png",
     dateFormat:"dd MMM yyyy",
     dateFormatLocale:"en_us"
   );

@@ -7,7 +7,7 @@ Source _mangatitanSource = Source(
     lang: "th",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/mangatitan/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/dart/manga/multisrc/madara/src/mangatitan/icon.png",
     dateFormat:"MMMM d, yyyy",
     dateFormatLocale:"th"
   );

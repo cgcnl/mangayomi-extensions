@@ -7,7 +7,7 @@ Source _manhwuafansSource = Source(
     lang: "en",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/manhwuafans/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/dart/manga/multisrc/madara/src/manhwuafans/icon.png",
     dateFormat:"yyyy'年'M'月'd",
     dateFormatLocale:"en_us"
   );

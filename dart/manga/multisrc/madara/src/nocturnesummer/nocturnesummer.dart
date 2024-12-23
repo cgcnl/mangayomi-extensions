@@ -7,7 +7,7 @@ Source _nocturnesummerSource = Source(
     lang: "pt-br",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/nocturnesummer/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/dart/manga/multisrc/madara/src/nocturnesummer/icon.png",
     dateFormat:"dd 'de' MMMMM 'de' yyyy",
     dateFormatLocale:"pt-br"
   );

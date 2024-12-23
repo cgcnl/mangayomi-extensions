@@ -7,7 +7,7 @@ Source _topmanhuaSource = Source(
     lang: "en",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/topmanhua/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/dart/manga/multisrc/madara/src/topmanhua/icon.png",
     dateFormat:"MM/dd/yy",
     dateFormatLocale:"en_us"
   );

@@ -7,7 +7,7 @@ Source _hadesnofansubSource = Source(
     lang: "es",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/hadesnofansub/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/dart/manga/multisrc/madara/src/hadesnofansub/icon.png",
     dateFormat:"MM/dd/yyyy",
     dateFormatLocale:"es"
   );

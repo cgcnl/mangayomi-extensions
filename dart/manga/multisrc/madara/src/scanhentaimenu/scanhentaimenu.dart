@@ -7,7 +7,7 @@ Source _scanhentaimenuSource = Source(
     lang: "fr",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/scanhentaimenu/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/dart/manga/multisrc/madara/src/scanhentaimenu/icon.png",
     dateFormat:"MMMM d, yyyy",
     dateFormatLocale:"fr"
   );

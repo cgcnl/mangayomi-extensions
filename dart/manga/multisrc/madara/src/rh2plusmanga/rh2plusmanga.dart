@@ -7,7 +7,7 @@ Source _rh2plusmangaSource = Source(
     lang: "th",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/rh2plusmanga/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/dart/manga/multisrc/madara/src/rh2plusmanga/icon.png",
     dateFormat:"d MMMM yyyy",
     dateFormatLocale:"th"
   );

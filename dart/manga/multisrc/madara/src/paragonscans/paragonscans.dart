@@ -7,7 +7,7 @@ Source _paragonscansSource = Source(
     lang: "en",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/paragonscans/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/dart/manga/multisrc/madara/src/paragonscans/icon.png",
     dateFormat:"MM/dd/yyyy",
     dateFormatLocale:"en"
   );

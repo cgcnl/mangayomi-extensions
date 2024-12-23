@@ -7,7 +7,7 @@ Source _madaradexSource = Source(
     lang: "en",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/madaradex/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/dart/manga/multisrc/madara/src/madaradex/icon.png",
     dateFormat:"MMM d, yyyy",
     dateFormatLocale:"en_us"
   );

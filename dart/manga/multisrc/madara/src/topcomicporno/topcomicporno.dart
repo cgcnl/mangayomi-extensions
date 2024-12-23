@@ -7,7 +7,7 @@ Source _topcomicpornoSource = Source(
     lang: "es",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/topcomicporno/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/dart/manga/multisrc/madara/src/topcomicporno/icon.png",
     dateFormat:"MMM dd, yy",
     dateFormatLocale:"es"
   );

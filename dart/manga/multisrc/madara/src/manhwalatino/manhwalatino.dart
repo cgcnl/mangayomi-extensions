@@ -7,7 +7,7 @@ Source _manhwalatinoSource = Source(
     lang: "es",
     isNsfw:true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/manhwalatino/icon.png",
+    iconUrl: "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/dart/manga/multisrc/madara/src/manhwalatino/icon.png",
     dateFormat:"dd/MM/yyyy",
     dateFormatLocale:"es"
   );
