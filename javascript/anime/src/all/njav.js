@@ -7,7 +7,7 @@ const mangayomiSources = [{
     "typeSource": "single",
     "isManga": false,
     "isNsfw": true,
-    "version": "0.0.6",
+    "version": "0.0.7",
     "apiUrl": "",
     "dateFormat": "",
     "dateFormatLocale": "",
@@ -342,8 +342,8 @@ const mangayomiSources = [{
             "title": "Website Url",
             "summary": "",
             "valueIndex": 0,
-            "entries": ["njav", "missav", "javgo", "supjav"],
-            "entryValues": ["https://123av.com", "https://missav.li", "https://www.javgo.to", "https://supjav.pro"],
+            "entries": ["njav", "123av", "missav", "javgo"],
+            "entryValues": ["https://www.njav.com", "https://123av.com", "https://missav.sh", "https://www.javgo.to"],
           }
         }
       ];
