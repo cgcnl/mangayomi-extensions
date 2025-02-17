@@ -6,6 +6,8 @@ const mangayomiSources = [{
     "iconUrl": "https://raw.githubusercontent.com/cgcnl/mangayomi-extensions/main/javascript/icon/vi.truyenqq.png",
     "typeSource": "single",
     "itemType": 0,
+    "isNsfw": false,
+    "hasCloudflare": true,
     "version": "0.0.1",
     "pkgPath": "manga/src/vi/truyenqq.js"
 }];
